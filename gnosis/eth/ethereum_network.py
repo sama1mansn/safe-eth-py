@@ -736,6 +736,7 @@ class EthereumNetwork(Enum):
     PDC_MAINNET = 666301171999
     MOLEREUM_NETWORK = 6022140761023
     OPBNB_TESTNET = 5611
+    OPBNB_MAINNET = 204
 
     @classmethod
     def _missing_(cls, value):
