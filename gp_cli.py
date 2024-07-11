@@ -29,7 +29,7 @@ if __name__ == "__main__":
         default=EthereumNetwork.RINKEBY.name,
         help="Mainnet, Rinkeby or xDAI",
     )
-    parser.add_argument("--from-token", required=True)  # TODO Check checksummed address
+    parser.add_argument("--from-token", required=false)  # TODO Check checksummed address
     parser.add_argument("--to-token", required=True)
     parser.add_argument("--amount-wei", required=True, type=int)
     parser.add_argument("--require-full-fill", action="store_true", default=False)
